@@ -4,8 +4,7 @@
 }
 
 .header {
-box-sizing: border-box;
-border: 1px solid black;
+
 height: 20vh;
 width: 100%;
 }
@@ -24,70 +23,62 @@ display: flex;
 }
 
 .header1 {
-box-sizing: border-box;
-border: 1px solid black;
+
 height: 60%;
 width: 100%;
 display: flex;
 }
 
 .header2 {
-box-sizing: border-box;
-border: 1px solid black;
+
 height: 40%;
 width: 100%;
 display: flex;
 }
 
 .youtubelogo {
-box-sizing: border-box;
-border: 1px solid black;
+
 height: 100%;
 width: 35%;
 }
 .spacebl {
-box-sizing: border-box;
-border: 1px solid black;
+
 height: 100%;
 width: 30%;
 }
 .upbuttons {
-box-sizing: border-box;
-border: 1px solid black;
+
 height: 100%;
 width: 35%;
 display: flex;
 }
 
 .trending {
-    box-sizing: border-box;
-border: 1px solid black;
+ 
 height: 100%;
 width: 20%;
 }
 
 .sectionsbt {
-    box-sizing: border-box;
-    border: 1px solid black;
+
     height: 100%;
     width: 80%;
 display: flex;
 overflow-x: scroll;
 overflow-y: none;
+scrollbar-width: 1vw;
 
 }
 
 .bottombuts {
-    box-sizing: border-box;
-    border: 1px solid black;
+
     height: 100%;
     width: 20%;
 
 }
 
 .upbotton11 {
-    box-sizing: border-box;
-    border: 1px solid black;
+
     height: 100%;
 display: flex;
 align-items: center;
@@ -125,3 +116,8 @@ justify-content: center;
     margin: 1vw;
     padding: 1vw;
 }
+
+.sectionsbt::-webkit-scrollbar {
+    display: none;
+  }
+  
